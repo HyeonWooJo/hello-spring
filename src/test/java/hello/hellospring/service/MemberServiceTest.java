@@ -37,7 +37,7 @@ class MemberServiceTest {
         Member member = new Member();
         member.setName("hello");
 
-        //when 이걸 실행했을 때
+        //when 이걸 실행 했을 때
         Long saveId = memberService.join(member);
 
         //then 이렇게 나와야 해
